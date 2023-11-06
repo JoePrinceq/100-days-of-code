@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+class Sign2{
+    public static void main(String[] args)
+    {
+        int n;
+        Scanner s = new Scanner(System.in);
+        n = s.nextInt();
+        s.close();
+        if(n!=0)
+        {
+        String result = n>=1 ? "Positive number":"Negative number";
+        System.out.println(result);
+        }
+        else
+        {
+            System.out.println("Zero");
+        }
+    }
+}
